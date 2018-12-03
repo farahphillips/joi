@@ -5,6 +5,7 @@
   "homepage": "https://github.com/hapijs/joi",
   "repository": "git://github.com/hapijs/joi",
   "main": "lib/index.js",
+  "typings": "./typescript/index.d.ts",
   "keywords": [
     "hapi",
     "schema",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "code": "5.x.x",
+    "dtslint": "^0.3.0",
     "hapitoc": "1.x.x",
     "lab": "18.x.x"
   },
